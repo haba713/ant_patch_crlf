@@ -1,0 +1,9 @@
+<project
+    xmlns="antlib:org.apache.tools.ant"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="antlib:org.apache.tools.ant https://raw.githubusercontent.com/TonyGravagno/apache-ant-schema/master/ant.xsd"
+    default="patch">
+    <target name="patch">
+        <patch patchfile="test.patch" ignorewhitespace="true"/>
+    </target>
+</project>
